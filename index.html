@@ -5,26 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trivia Game</title>
     <link rel ="stylesheet" type="text/css" href="assests/css/style.css">
+    <style>
+        div { /*tagname*/
+
+        }
+        .total-score { /*class*/
+
+        }
+        #endGameInfo { /* id*/
+
+        }
+       
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Trivia!</h1>
         <div id = "quiz" class ="main-content">
-            <button id"Begin" class="btn">Begin</button>
-            <div id "time"></div>
+            <button id="begin" class="btn">Start Trivia</button>
+            <div id ="time"></div>
             
             <div id="questions">
 
             </div>
-       
-            
-
             <div id="results"></div>
             <div id="right"></div>
             <div id="wrong"></div>
             <div id="noAnswer"></div>
             
         </div>
+    </div>
+
+    <div id="feedback" style="text-align: center;">
+
+    </div>
+    <div id="endGameInfo" class="total-score" style="text-align:center ;">
+     
+    </div>
+    <div id="correct-incorrect" class="correct-incorrect" style="text-align: center;">
+      <p>Correct</p>
+      <p id="correct">0</p>
+      <p>Incorrect:</p>
+      <p id="incorrect">0</p>
+
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
 <script src= "assests/javascript/app.js"></script>
